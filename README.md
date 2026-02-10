@@ -1,22 +1,20 @@
-# Industry Predictive Maintenance System
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-An ESP32-based IoT predictive maintenance system developed for a hackathon.
+# Run and deploy your AI Studio app
 
-## 🔗 Live Simulation (Wokwi)
-The complete hardware simulation can be accessed here:  
-👉 https://wokwi.com/projects/455504272188234753
+This contains everything you need to run your app locally.
 
-## 📁 Project Structure
-- `wokwi-simulation/`  
-  Contains ESP32 Wokwi simulation files:
-  - `sketch.ino`
-  - `diagram.json`
-  - `wokwi.toml`
+View your app in AI Studio: https://ai.studio/apps/drive/1NuOizE29fNe6fTXFiRZlxIXNxbQPquAg
 
-## 🧠 Overview
-The system continuously monitors sensor data and triggers alerts when values exceed predefined thresholds, enabling early fault detection in industrial equipment.
+## Run Locally
 
-## 🛠 Tools Used
-- ESP32
-- Wokwi Simulator
-- GitHub
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
