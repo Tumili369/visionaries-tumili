@@ -1,7 +1,0 @@
-{
-  "name": "PrediFix AI",
-  "description": "An IoT/ML-powered predictive maintenance platform for Indian MSMEs, optimized for Chennai factories with offline-first features and AR repair guides.",
-  "requestFramePermissions": [
-    "camera"
-  ]
-}
